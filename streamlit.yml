@@ -1,0 +1,9 @@
+# Streamlit Cloud deployment configuration
+# https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app
+
+# Python version (ensure compatibility)
+python: 3.11
+
+# Platform requirements (Streamlit Cloud will install from requirements.txt)
+requirements:
+  - file: requirements.txt

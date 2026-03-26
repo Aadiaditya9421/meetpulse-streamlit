@@ -1,9 +1,18 @@
+# Core dependencies
 streamlit==1.43.2
+
+# Machine Learning & Data Science
 scikit-learn==1.6.1
 numpy==2.2.4
 pandas==2.2.3
+scipy==1.15.2
+
+# Model serialization (CRITICAL for loading .pkl files)
+joblib==1.4.2
+
+# Visualization
 matplotlib==3.10.1
 seaborn==0.13.2
+
+# NLP
 nltk==3.9.1
-joblib==1.4.2
-scipy==1.15.2
